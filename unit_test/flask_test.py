@@ -22,7 +22,8 @@ ext = Ext(app, Platform,before_request)
 @ext.annote(suffix='/index', platform=Platform.ANDROID)
 @app.route('/index')
 def index():
-    raise RestfulException('异常测试')
+    # raise RestfulException('异常测试')
+    return 'index'
 
 
 @ext.annote(suffix='/user/aaa/<name>', platform=Platform.ANDROID)
@@ -33,7 +34,7 @@ def user(name):
 
 @app.route('/indexx')
 def test():
-    abort(404)
+    # abort(404)
     return 'test'
 
 
