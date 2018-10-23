@@ -1,4 +1,6 @@
-# ruiyun-flask-interceptor
+ruiyun-flask-interceptor
+==========
+[![Build Status](https://travis-ci.com/chuckiefan/ruiyun-flask-interceptor.svg?branch=master)](https://travis-ci.com/chuckiefan/ruiyun-flask-interceptor)
 
 #### 项目介绍
 
